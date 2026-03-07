@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+	String nome;
+	String curso;
+	int idade;
+	
+
+	printf("Digite seu nome: ");
+	scanf("%s", &nome);
+
+	printf("Digite sua idade: ");
+	scanf("%d", &idade);
+
+	printf"Digite o a graduação que faz atualmente: ");
+	scanf("%s", &curso);
+
+	printf("Seu nome é: %s", nome);
+	printf("Sua idade é: %d", idade);
+	printf("Seu curso de graduação é: %s", curso);
+	
+	return 0;
+}
