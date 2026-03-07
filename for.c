@@ -11,7 +11,7 @@ int main() {
 
 	for (int k = 1; k <= i; k++) {
 		for (int l = 1; l <= j; l++) {
-			printf("%d ", l); 
+			printf("%d ", l * k); 
 		}
 		printf("\n");
 	}
