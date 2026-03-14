@@ -17,12 +17,5 @@ int main(void) {
 
 	printf("\n%d", *point);
 
-	printf("\n\nNow, type a new value to be stored in that same adress: ");
-	scanf("%d", &i);
-
-	*point = i;
-
-	printf("\n\nNow the value stored in the adress \"%p\" is: %d", (void*)(point), *point);
-
 	return 0;
 }
