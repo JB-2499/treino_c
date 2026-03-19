@@ -2,3 +2,5 @@
 *.c.un~
 *.exe
 *.un~
+*.c.swp
+*.swp

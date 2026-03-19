@@ -1,5 +1,20 @@
 #include <stdio.h>
 
+void adress(int* point);
+void modAd(int* point);
+int readInt();
+
+int main(void) {
+	int num;
+
+	readInt();
+	adress(&num);
+
+	modAd(&num);
+	adress(&num);
+
+	return 0;
+}	
 
 void adress(int* point) {
 	printf("The int value \"%d\" is stored at: \"%p\".\n", *point, (void*)point);
@@ -17,14 +32,4 @@ int readInt() {
 	scanf(" %d", &num);
 
 	return num;
-}
-
-int main(void) {
-	int num = readInt();
-	adress(&num);
-
-	modAd(&num);
-	adress(&num);
-	
-	return 0;
 }
